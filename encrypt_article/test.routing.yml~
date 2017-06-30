@@ -1,0 +1,7 @@
+test.ennews:
+  path: '/ennews'
+  defaults:
+    _controller: '\Drupal\test\Controller\EnnewsController::content'
+    _title: 'news'
+  requirements:
+    _permission: 'access content'

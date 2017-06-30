@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file 
+ * Contains \Drupal\hello_world\Controller\HelloWorldController.
+ */
+ ms_ajax_form_example
+namespace Drupal\ms_ajax_form_example\Controller;
+
+use Drupal\Core\Controller\ControllerBase;
+
+class HelloWorldController extends ControllerBase {
+  public function content() {
+    return array(
+      '#type' => 'markup',
+      '#markup' => $this->t('Hello, World!')
+    );
+  }
+}

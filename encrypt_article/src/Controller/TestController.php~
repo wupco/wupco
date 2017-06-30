@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file 
+ * Contains \Drupal\hello_world\Controller\HelloWorldController.
+ */
+namespace Drupal\test\Controller;
+
+use Drupal\Core\Controller\ControllerBase;
+
+class HelloWorldController extends ControllerBase {
+  public function content() {
+    return array(
+      '#type' => 'markup',
+      '#markup' => $this->t('Hello, World!')
+    );
+  }
+}

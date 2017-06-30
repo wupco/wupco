@@ -1,0 +1,12 @@
+name: TEST
+type: module
+description: 'Defines framework to create ajax based multi step forms.'
+# core: 8.x
+package: Custom
+configure: test.page
+
+# Information added by Drupal.org packaging script on 2017-05-28
+version: '8.x-1.0'
+core: '8.x'
+project: 'ms_ajax_form_example'
+datestamp: 1495974785

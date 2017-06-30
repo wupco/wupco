@@ -1,0 +1,8 @@
+name: Encrypt Article 
+type: module
+description: 'Encrypt the pram to defend sqli'
+package: Custom
+version: '8.x-1.0'
+core: '8.x'
+project: 'encrypt_article'
+
